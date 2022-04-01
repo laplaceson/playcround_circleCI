@@ -24,8 +24,8 @@ jobs:
     steps:
       - checkout
       - run:
-        name: "DEPLOY"
-        command: python test.py
+          name: "DEPLOY"
+          command: python test.py
 
 
 # Invoke jobs via workflows

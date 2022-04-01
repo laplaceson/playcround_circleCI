@@ -22,6 +22,7 @@ jobs:
       - image: circleci/python:3.6.1
     working_directory: ~/playcround_circleCI
     steps:
+      - checkout
       - run:
         name: "DEPLOY"
         command: "echo This is deploy"
